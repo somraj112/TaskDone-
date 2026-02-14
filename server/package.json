@@ -1,0 +1,18 @@
+{
+  "name": "taskdone-server",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "googleapis": "^171.4.0",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
